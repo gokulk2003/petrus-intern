@@ -1,0 +1,36 @@
+git-  version control system,helps you to keep track of code changes,is used to colloborate on code.
+
+git-type it in cmd.it is used to check whether git installed in lap
+    setting name and email
+git config --global user.name "gokul"
+git config --global user.email "gokul17072003@gmail.com"
+
+git clone "link"-used for copy remote to local repository.
+
+git add .-used for changing/deleting/adding files to stagging area.
+
+git commit -m"file added"-used for commiting changes staging area  to local.
+
+git status-to check the status.
+
+git push origin branchname-local to remote repository.
+
+git pull-modifying files from remote to local.
+
+git init-initialize empty git repository.
+
+git remote add origin "link" 
+
+git branch -M main(changing branch name master to main)
+
+git branch -a -to list out all branches 
+
+git checkout branchname-to change the branch
+
+git diff branchname(after checkout main to compare it with another branch use diff)
+
+git merge branchname(to merge the branch)
+ 
+      pull request from github(also like merge because main branch access is not allowed for all team members so raise the pull request to owner then owner allow to merge the files)
+
+conflict resolve in github(modifying the same content )
